@@ -67,7 +67,7 @@ public class CervejariaBatchChunkApplication {
 
 	@Bean
 	@Qualifier("stepchunk")
-	public Step step(StepBuilderFactory stepBuilderFactory,
+	public Step stepchunk(StepBuilderFactory stepBuilderFactory,
 					 ItemReader<Pessoa> itemReader,
 					 ItemProcessor<Pessoa, Pessoa> itemProcessor,
 					 ItemWriter<Pessoa> itemWriter) {
