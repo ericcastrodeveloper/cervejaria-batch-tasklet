@@ -4,5 +4,13 @@ spring:
     username: fiap
     password: fiap
 
+  h2:
+    console:
+      enabled:
+        true
+      path:
+        /h2
+
 file:
-  path: C:\Users\logonrmlocal\Desktop\Teste
+  path: C:/Users/logonrmlocal/Desktop/Teste/teste.txt
+  input: classpath:pessoa.txt
